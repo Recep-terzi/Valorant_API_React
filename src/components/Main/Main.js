@@ -10,7 +10,7 @@ const Main = () => {
         .then((res) => res.json())
         .then((data) => setAgents(data.data));
     }, []);
-    
+    console.log(agents);
   return (
     <div className="container">
         <div className="row">

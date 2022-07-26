@@ -15,6 +15,7 @@ const Navbar = () => {
           VALORANT API
         </Typography>
         <a color="inherit" href="/agents" className='agents'>Agents</a>
+        <a color="inherit" href="/weapons" className='weapons'>Weapons</a>
       </Toolbar>
     </AppBar>
   </Box>
